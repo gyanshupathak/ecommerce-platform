@@ -1,0 +1,69 @@
+
+  
+  .trending-image1 {
+    width: 100%; /* Set the image's width to 100% */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    display: block; /* Remove any extra spacing below the image */
+  }
+  .trending-image2 {
+    width: 47%; /* Set the image's width to 100% */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    display: block; /* Remove any extra spacing below the image */
+    position:absolute;
+    left:50px;
+  }
+  .trending-image3 {
+    width: 45%; /* Set the image's width to 100% */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    display: block; /* Remove any extra spacing below the image */
+    position:absolute;
+    top:1605px;
+    left:1550px;
+  }
+  
+  .value-pack1{
+    
+    position:absolute;
+    top:600px;
+    left:600px;
+    
+  }
+
+  .value-pack2{
+    
+    position:absolute;
+    top:1800px;
+    left:200px;
+    z-index: 1;
+    
+  }
+
+  .value-pack3{
+    
+    position:absolute;
+    top:1800px;
+    left:1600px;
+    z-index: 1;
+    
+  }
+  h1{
+    color:white;
+    font-size:80px;
+  }
+  h3{
+    color:white;
+    font-size:40px;
+  }
+
+  .btn-shop-now {
+    font-size: 24px;
+    background-color: white;
+    color: #1a7fa4;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position:absolute;
+    left:150px;
+    width:200px;
+  }

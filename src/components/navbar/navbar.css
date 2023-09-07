@@ -1,0 +1,84 @@
+.navbar {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 30px; /* Increase padding for the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  text-decoration:none;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #bf62d1;
+  font-size: 48px; /* Increase font size for the logo */
+  
+}
+
+.search-bar {
+  padding: 16px; /* Increase padding for the search bar */
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 24px;
+  width:800px; /* Increase font size for the search bar */
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-right: 40px; /* Increase margin for each navbar item */
+}
+
+.navbar-links li:last-child {
+  margin-right: 0;
+}
+
+.navbar-link-item {
+  text-decoration: none;
+  color: #000000;
+  font-size: 32px; /* Increase font size for navbar items */
+}
+
+.active-link {
+  text-decoration: none;
+  font-size: 32px;
+  color:#b435d3;
+
+}
+
+.category-button {
+  text-decoration: none;
+  color: #010101;
+  font-size: 32px; /* Increase font size for the category button */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #333;
+  border-radius: 8px;
+  top: 90px; /* Increase top position for the dropdown */
+  right: 0;
+  z-index: 1;
+}
+
+.category-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 16px 24px; /* Increase padding for dropdown items */
+  transition: background-color 0.3s ease;
+  font-size: 28px; /* Increase font size for dropdown items */
+}
+
+.category-link:hover {
+  background-color: #555;
+}

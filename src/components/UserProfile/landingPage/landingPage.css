@@ -1,0 +1,59 @@
+.landing-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.landing-content {
+  text-align: center;
+  padding: 10px; /* Reduced padding */
+  max-width: 600px; /* Reduced maximum width */
+  width: 100%;
+}
+
+.landing-content h1 {
+  font-size: 40px; /* Smaller font size */
+  font-weight: bold;
+  margin: 0 0 10px; /* Reduced margin */
+  color: black;
+}
+
+.landing-content p {
+  font-size: 24px; /* Smaller font size */
+  margin: 10px 0 20px; /* Reduced margin */
+}
+
+.action-buttons {
+  margin-top: 20px; /* Reduced margin-top */
+}
+
+.login-button,
+.signup-button {
+  padding: 10px 20px; /* Reduced padding */
+  font-size: 18px; /* Smaller font size */
+  background-color: #d639e4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px; /* Reduced margin-right */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+.image {
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
